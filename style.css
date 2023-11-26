@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    background-color: ECE3CE;
+    color:#504737;
+    
+}
+body{
+    margin-left: 90px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center; background-color:#164863 ;
+}
+
+.navbar li,a ,button{
+    font-weight: 500;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+
+}
+li,a {
+    font-weight: 500;
+    font-size: 20px;
+}
+main{
+    margin-top: 40px;
+}
+main h2{
+     color: #bd9249;
+}
+main h3{
+     color: #906c9c;
+     font-size: 30px;
+}
+main img{
+    border-radius: 15px;
+}
+main ul li{
+    background-color: #58A4B0;
+    border-radius: 30px;
+    padding:15px;
+    padding-right: 30px;
+}
+main ul li:hover{
+    background-color: #56939c;
+    padding:25px;
+}
+h1{
+    color: #51768a;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+header img{
+    width: 35px;
+}
+.logo{
+    color: red;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+    background-blend-mode: overlay;
+    margin-left:10%px ;
+
+}
+.logo h2{
+    font-size: 15px;
+    /* color:linergr #b92b27;
+    background-color:;
+    background-color: #4158D0; */
+    color:  linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+ header ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+ul li a {
+    transition: all 0.2s ease 0s;
+}
+.navbar:hover{
+    font-size: 25px;
+
+    color:#29ADB2;
+}
+
+button{
+    padding: 9px 25px;
+    background-color:#58A4B0;
+    color: #BAC1B8;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 30px;
+    
+}
+button:hover{
+    background-color: rgb(146, 187, 204);
+    font-size: 21px;
+    color: rgb(14, 11, 11);
+
+
+}
+
+.welcome{
+   /* margin-left: 28%; */
+   margin-bottom: 30px;
+
+}
+.card1{
+    position:relative;
+}
+
+.e img:not(:hover){
+    opacity: 0.2;  
+}
+.e::before{
+    opacity: 1;
+}
+.e a{
+    text-decoration: underline;
+    color: rgb(70, 70, 104);
+    
+}
+.card{
+    list-style:circle;
+    text-align: center;
+}
+.menu{
+    margin-top:30px ;
+    margin-bottom:30px ;
+    color:rgb(146, 146, 204) ;
+   
+}
+
+.quisins img:hover{
+    opacity: 0.2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.indian img{
+    margin-top: 30px;
+}
+.indian img:hover{
+    width: 315px;
+    height: 230px;
+    padding: 35px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.chumma h1{
+    margin: 30px;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-right: 200px;
+    font-size: 45spx;
+}
+.chumma img{
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    max-resolution: 40px;
+    /* margin-left: 200px; */
+}
+.chumma p{
+    margin: 40px;
+    text-align: center;
+
+}
+.chumma h1{
+    font-size: 40px;
+    text-align: center;
+    color: #B0A695;
+}
+footer{
+    padding:40px ;
+    margin-top: 40px;
+    /* background-color: burlywood; */
+    align-items: center;
+    text-align: center;
+}
+footer h2{
+    color: #427D9D;
+    margin-bottom: 20px;
+
+}
+footer h3{
+    color: #9BBEC8;
+    margin-bottom: 20px;
+
+}
+footer h4{
+    color: #bd9249;
+    margin-bottom: 20px;
+
+}
+footer ul li a svg{
+    size: 50px;
+}
+.media img{
+    background: transparent;
+    border-radius: 30px;
+}
+.register:hover{
+    font-size: 23px;
+    transition: all 0.3s ease-in-out;
+    color: #58A4B0;
+    font-style: bold;
+    font-weight: 300;
+    
+}
